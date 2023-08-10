@@ -5,14 +5,14 @@ public class Exerc {
 
     
     public static void main(String[] args) {
-        int n1,res;
+        double n1,cubo;
         String sn1;
         
         sn1=JOptionPane.showInputDialog(null,"digite o valor");
         
-        n1 = Integer.parseInt(sn1);
+        n1 = Double.parseDouble(sn1);
         
-        res = n1*n1*n1;
+        cubo = n1*n1*n1;
         
-        JOptionPane.showMessageDialog(null,"O resultado  é" + res);
+        JOptionPane.showMessageDialog(null,"O resultado  é" + cubo);
     }
